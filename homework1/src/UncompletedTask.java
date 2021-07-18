@@ -12,6 +12,6 @@ public class UncompletedTask extends Task
         this.Name=Name;
 
     }
-    public void show(){System.out.printf("ID: %d Name: %s, Owner: %s", id,Name,Owner);}
+    public void show(){System.out.printf("ID: %d Name: %s, Owner: %s\n", id,Name,Owner);}
 
 }

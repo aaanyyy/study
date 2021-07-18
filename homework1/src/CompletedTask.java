@@ -20,7 +20,7 @@ public CompletedTask(Task TaskToComplete)
         CompletionDate=new Date(System.currentTimeMillis());
     }
 
-    public void show(){System.out.printf("ID: %d Name: %s, Completed: %s", id,Name,CompletionDate.toString());}
+    public void show(){System.out.printf("ID: %d Name: %s, Completed: %s\n", id,Name,CompletionDate.toString());}
 
 
 }
